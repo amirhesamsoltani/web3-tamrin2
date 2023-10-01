@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var speed = Number(prompt("لطفا سرعت خود را وراد کنید:"));
+        if (speed <= 30){
+            alert("سرعت شما مجاز است.");
+        }if(speed>30 && speed<=80){
+            alert("سرعت شما برای تردد در شهر مجاز است.");
+        }if(speed>80 && speed<=120){
+            alert("سرعت شما برای تردد در جاده مجاز است.");
+        }if (speed>120){
+            alert("سرعت شما غیر مجازاست");
+        }
+    </script>
+</body>
+</html>

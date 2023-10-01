@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        var vazn = Number(prompt("لطفا وزن خود را بر حسب کیلوگرم وارد کنید:"));
+        var ghad = Number(prompt("لطفا قد خود را بر حسب متر وارد کنید:"));
+        var Bmi = vazn/ ghad**2;
+        console.log(Bmi);
+        if (Bmi<=18.5){
+            window.alert("شما با کمبود وزن مواجه هستید.");
+        }
+        if (Bmi>18.5 && Bmi<=24.99) {
+            window.alert("شما در حالت نرمال قرار دارید");
+        }
+        if (Bmi>=25 && Bmi<= 29.99){
+            window.alert("شما اضافه وزن دارید.");
+        }
+        if (Bmi>=30 && Bmi<= 34.99){
+            window.alert("شما با چاقی مواجه هستید.");
+        }if (Bmi>= 35) {
+            window.alert("شما بسیار چاق هستید.");
+        } 
+    </script>
+ </body>
+ </html>
